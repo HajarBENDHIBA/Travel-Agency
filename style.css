@@ -1,0 +1,164 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+ 
+.home {
+    background-image: url('https://cdn-s-www.ledauphine.com/images/22BF6D7E-087D-4355-99C3-E33EB3DD115E/NW_raw/pour-decouvrir-les-innombrables-iles-des-maldives-vous-pouvez-effectuer-une-croisiere-sur-un-paquebot-luxueux-ou-tout-simplement-monter-a-bord-des-dhoni-les-bateaux-locaux-de-transport-le-top-pour-se-balader-d-un-atoll-a-l-autre-photo-toby-hughes_unsplash-1701097982.jpg'); /* Add your background image here */
+    background-size: cover;
+    height: 700px; /* Full viewport height */
+    width: 1600px;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+
+.content {
+    color: rgb(255, 255, 255); /* Change text color to white for better visibility */
+    padding: 20px; /* Add some padding around the content */
+    border: 2px  rgba(255, 255, 255, 0.5); /* Transparent white border */
+    border-radius: 10px; /* Rounded corners for the border */
+    backdrop-filter: blur(10px); /* Optional: blur the background behind the content */
+}
+.content p{
+    color: rgb(7, 40, 41);
+    font-size: x-large;
+}
+
+.reservation-button {
+    margin-top: 20px; /* Space between the text and the button */
+    padding: 10px 20px; /* Button padding */
+    font-size: 20px; /* Button font size */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Optionally add hover effects */
+.reservation-button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+
+
+
+.bordered-paragraph {
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 15px; /* Space inside the border */
+    margin-top: 10px; /* Space above the paragraph */
+}
+.image-container {
+    margin-bottom: 30px; /* Space below each image container */
+}
+
+.col-md-4{
+    margin-top: 50px;
+}
+
+
+
+
+.col-md-4 p{
+    font-size: x-large;
+    padding: 10px;
+}
+
+
+.footer {
+    background-color: #ffffff; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Top and bottom padding */
+    text-align: center; /* Centered text */
+    position: relative; /* Position relative for positioning child elements */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
+
+.footer a {
+    margin: 0 15px; /* Spacing between icons */
+    color: #272323; /* White icon color */
+    font-size: 30px; /* Icon size */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.footer a:hover {
+    color: #208693; /* Change color on hover */
+}
+
+.footer p {
+    margin-top: 10px; /* Space above the copyright text */
+    font-size: 14px; /* Font size for copyright */
+}
+
+.container1 h5{
+
+    font-size: 60px;
+    padding: 20px;
+ 
+    
+}
+
+.container1 p {
+    color: rgb(60, 63, 74);
+    font-size: 25px;
+    text-align: center;
+    padding-inline: 200px;
+}
+
+.bg-body-tertiary {
+    margin-top: 60px;
+}
+
+ /* CSS for hover effect */
+ .destinations img {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.destinations img:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+}
+
+.destinations h1 {
+   color: #007bff;
+   font-size: 60px;
+   text-align: center;
+   margin-top: 10px;
+}
+
+
+
+.rowe {
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding around the content */
+    margin: 10px; /* Centering */
+    background-color: #f8f9fa; /* Light background */
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+
+
+.col-md-4 h1 {
+    color: #208693;
+
+}
+.col-md-4 p{
+    font-size: 20px;
+}
+    
+    .col-md-4{
+        transition: background-color 0.3s, color 0.3s; /* Smooth transition for the hover effect */
+        border-radius: 30px; /* Rounded corners for the border */
+        padding: 20px;
+    }
+    
+    .col-md-4:hover {
+        background-color: #ffffff; /* Light gray background on hover */
+        color: #488387; /* Change text color to blue on hover */
+        cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+    }
+
+    
