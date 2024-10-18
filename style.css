@@ -161,4 +161,54 @@ body, html {
         cursor: pointer; /* Change cursor to pointer to indicate interactivity */
     }
 
+
+
+
+
+
+
+
+
+    @media (max-width: 992px) {
+        .home {
+            height: 70vh; /* Reduce height on smaller screens */
+        }
+    
+        .content p {
+            font-size: 1.25rem; /* Adjust font size */
+        }
+        
+        .col-md-4 {
+            margin-top: 20px; /* Reduce margin */
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .home {
+            height: 60vh; /* Further reduce height */
+        }
+    
+        .content p {
+            font-size: 1rem; /* Smaller font */
+        }
+    
+        .container1 h5 {
+            font-size: 2.5rem; /* Adjust size */
+        }
+    }
+    
+    @media (max-width: 576px) {
+        .content {
+            padding: 15px; /* Adjust padding */
+        }
+    
+        .reservation-button {
+            padding: 8px 15px; /* Smaller button padding */
+        }
+    
+        .footer a {
+            font-size: 1.5rem; /* Adjust size */
+        }
+    }
+
     
